@@ -12,4 +12,9 @@ export default defineNuxtConfig({
   build: {
 		transpile: ["primevue"]
 	},
+  vite:{
+    optimizeDeps: {
+      include: ["primevue"]
+    }
+  }
 })
